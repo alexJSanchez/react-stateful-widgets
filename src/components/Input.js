@@ -49,7 +49,7 @@ export default function Input() {
   };
   const reset = () => {
     setInputValue('');
-    
+
     /* STEP 5 */
   };
 
@@ -64,7 +64,7 @@ export default function Input() {
       <h2>Input</h2>
       <div id='output' style={style}>{inputValue}</div> {/* STEP 3 */}
       <div>
-        <input id='input' type='text' onChange={changeInput} /> {/* STEP 6 */}
+        <input id='input' type='text' onChange={changeInput} value={inputValue} /> {/* STEP 6 */}
         <button id='resetInput' onClick={reset}>Reset</button>
       </div>
     </div>
