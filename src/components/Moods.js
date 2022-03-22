@@ -29,6 +29,7 @@ STEPS 4, 5, 6:
 */
 
 import React, {useState} from 'react'; /* STEP 0 */
+let [mood, setMood] = useState(happyMood);
 
 const initialMood = 'Not sure how I feel';
 const happyMood = 'Quite happy!';
