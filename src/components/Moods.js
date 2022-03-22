@@ -40,12 +40,15 @@ let [mood, setMood] = useState(initialMood)
   /* STEP 1 */
 
   const makeHappy = () => {
+    setMood(happyMood)
     /* STEP 4 */
   };
   const makeSad = () => {
+    setMood(sadMood)
     /* STEP 5 */
   };
   const reset = () => {
+    setMood(initialMood)
     /* STEP 6 */
   };
 
